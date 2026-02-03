@@ -2,6 +2,7 @@
 /* This is a comment! Text here will be ignored by the browser. */
 body {
 	margin: 0 auto;
+	 font: 100%/Palatino, URW Palladio L, serif
 }
 .homePage {
 	background: #FA2A81
@@ -43,4 +44,12 @@ body {
 	width: 100%;
 	height: 50px;
 	text-align: center;
+}a:link {
+     color: #A80A4D;
+}
+a:visited {
+     color: #000000;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
 }
